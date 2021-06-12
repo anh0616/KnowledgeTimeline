@@ -24,6 +24,20 @@ body {
     background: #ffffff;
 
     overflow-x: hidden;
+
+    &::-webkit-scrollbar {
+        width: 0.25rem;
+        height: 0;
+
+        &-track {
+            background: none;
+        }
+
+        &-thumb {
+            background: $blue-color;
+            border-radius: 50px;
+        }
+    }
 }
 
 #main-header {

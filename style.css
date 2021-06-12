@@ -13,6 +13,17 @@ body {
   background: #ffffff;
   overflow-x: hidden; }
 
+body::-webkit-scrollbar {
+  width: 0.25rem;
+  height: 0; }
+
+body::-webkit-scrollbar-track {
+  background: none; }
+
+body::-webkit-scrollbar-thumb {
+  background: #1d2b36;
+  border-radius: 50px; }
+
 #main-header {
   background: url("showcase.webp") no-repeat center 0/cover;
   border-bottom: 3px solid #ffcd62;
